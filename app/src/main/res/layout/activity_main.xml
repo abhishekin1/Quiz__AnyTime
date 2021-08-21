@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:mlns="http://schemas.android.com/apk/res/android"
+     android:layout_height="match_parent"
+    android:background="#804C8100"
+    android:layout_width="match_parent">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_margin="40dp"
+        android:text="🤔 Please select Quiz topic"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintTop_toBottomOf="@id/imageView"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/drop"
+        android:dropDownWidth="250dp"
+        android:entries="@array/quiz_topics_array"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text1" />
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_marginTop="100dp"
+        android:text="Start quiz"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:srcCompat="@drawable/img"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="5dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="By- Abhishek Gupta  |  Mail: in.abhi.g@gmail.com  |  Mob: +91 8840158254"
+        app:layout_constraintStart_toStartOf="parent"
+        android:padding="5dp"
+        android:gravity="center"
+        android:textColor="#7C012E04"
+        android:textSize="10dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/start_button"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

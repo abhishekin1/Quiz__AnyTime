@@ -1,0 +1,173 @@
+<resources>
+    <string name="app_name">Quiz AnyTime</string>
+
+    <string-array name="quiz_topics_array">
+        <item>🎯 Select Topic</item>
+        <item>🖱 Kotlin</item>
+        <item>🖱 Java</item>
+        <item>🖱 Python</item>
+    </string-array>
+
+
+    <string name="py_q1">1. Is Python case sensitive when dealing with identifiers?</string>
+    <string name="py_q1_1">yes</string>
+    <string name="py_q1_2">no</string>
+    <string name="py_q1_3">machine dependent</string>
+    <string name="py_q1_4">none of the mentioned</string>
+    <string name="py_q2">2. What is the maximum possible length of an identifier?</string>
+    <string name="py_q2_1">31 characters</string>
+    <string name="py_q2_2">63 characters</string>]
+    <string name="py_q2_3">79 characters</string>
+    <string name="py_q2_4">none of the mentioned</string>
+    <string name="py_q3">3. Which of the following is invalid?</string>
+    <string name="py_q3_1">_a = 1</string>
+    <string name="py_q3_2">__a = 1</string>]
+    <string name="py_q3_3">__str__ = 1</string>
+    <string name="py_q3_4">none of the mentioned</string>
+    <string name="py_q4">4. Which of the following is an invalid variable?</string>
+    <string name="py_q4_1">my_string_1</string>
+    <string name="py_q4_2">1st_string</string>]
+    <string name="py_q4_3">foo</string>
+    <string name="py_q4_4">_</string>
+    <string name="py_q5">5. Why are local variable names beginning with an underscore discouraged?</string>
+    <string name="py_q5_1">they are used to indicate a private variables of a class</string>
+    <string name="py_q5_2">they confuse the interpreter</string>]
+    <string name="py_q5_3">they are used to indicate global variables</string>
+    <string name="py_q5_4">they slow down execution</string>
+    <string name="py_q6">6. Which of the following is not a keyword?</string>
+    <string name="py_q6_1">eval</string>
+    <string name="py_q6_2">assert</string>]
+    <string name="py_q6_3">nonlocal</string>
+    <string name="py_q6_4">pass</string>
+    <string name="py_q7">7. All keywords in Python are in _________</string>
+    <string name="py_q7_1">lower case</string>
+    <string name="py_q7_2">UPPER CASE</string>]
+    <string name="py_q7_3">Capitalized</string>
+    <string name="py_q7_4">None of the mentioned</string>
+    <string name="py_q8">8. Which of the following is true for variable names in Python?</string>
+    <string name="py_q8_1">unlimited length</string>
+    <string name="py_q8_2">all private members must have leading and trailing underscores</string>]
+    <string name="py_q8_3">underscore and ampersand are the only two special characters allowed</string>
+    <string name="py_q8_4">none of the mentioned</string>
+    <string name="py_q9">9. Which of the following is an invalid statement?</string>
+    <string name="py_q9_1">abc = 1,000,000</string>
+    <string name="py_q9_3">a b c = 1000 2000 3000</string>
+    <string name="py_q9_2">a,b,c = 1000, 2000, 3000</string>
+    <string name="py_q9_4">a_b_c = 1,000,000</string>
+    <string name="py_q10">10. Which of the following cannot be a variable?</string>
+    <string name="py_q10_1">__init__</string>
+    <string name="py_q10_2">in</string>]
+    <string name="py_q10_3">it</string>
+    <string name="py_q10_4">on</string>
+
+
+    <string name="java_q1">1. What is the range of short data type in Java?</string>
+    <string name="java_q1_1"> -128 to 127</string>
+    <string name="java_q1_2"> -32768 to 32767</string>
+    <string name="java_q1_3"> -2147483648 to 2147483647</string>
+    <string name="java_q1_4">None of the mentioned</string>
+    <string name="java_q2">2. What is the range of byte data type in Java?</string>
+    <string name="java_q2_1">-128 to 127</string>
+    <string name="java_q2_2">-32768 to 32767</string>]
+    <string name="java_q2_3">-2147483648 to 2147483647</string>
+    <string name="java_q2_4">none of the mentioned</string>
+    <string name="java_q3">3. Which of the following are legal lines of Java code?
+   1. int w = (int)888.8;
+   2. byte x = (byte)100L;
+   3. long y = (byte)100;
+   4. byte z = (byte)100L; </string>
+    <string name="java_q3_1">1 and 2</string>
+    <string name="java_q3_2">2 and 3</string>]
+    <string name="java_q3_3">3 and 4</string>
+    <string name="java_q3_4">All statements are correct</string>
+    <string name="java_q4">4. An expression involving byte, int, and literal numbers is promoted to which of these?</string>
+    <string name="java_q4_1">int</string>
+    <string name="java_q4_2">long</string>]
+    <string name="java_q4_3">byte</string>
+    <string name="java_q4_4">float</string>
+    <string name="java_q5">5. Which of these literals can be contained in float data type variable?</string>
+    <string name="java_q5_1">-1.7e+308</string>
+    <string name="java_q5_2">-3.4e+038</string>]
+    <string name="java_q5_3">+1.7e+308</string>
+    <string name="java_q5_4">-3.4e+050</string>
+    <string name="java_q6">6. Which data type value is returned by all transcendental math functions?</string>
+    <string name="java_q6_1">int</string>
+    <string name="java_q6_2">float</string>]
+    <string name="java_q6_3">double</string>
+    <string name="java_q6_4">long</string>
+    <string name="java_q7">7. Which of these keywords is used to make a class?</string>
+    <string name="java_q7_1">Struct</string>
+    <string name="java_q7_2">Int</string>]
+    <string name="java_q7_3">Class</string>
+    <string name="java_q7_4">None of the mentioned</string>
+    <string name="java_q8">8. Which of the following is a valid declaration of an object?</string>
+    <string name="java_q8_1">unlimited length</string>
+    <string name="java_q8_2">obj = new Box();</string>]
+    <string name="java_q8_3">Box obj = new Box;</string>
+    <string name="java_q8_4">Box obj = new Box();</string>
+    <string name="java_q9">9. Which of these operators is used to allocate memory for an object?</string>
+    <string name="java_q9_1">malloc</string>
+    <string name="java_q9_2">alloc</string>
+    <string name="java_q9_3">new</string>
+    <string name="java_q9_4">give</string>
+    <string name="java_q10">10. Which of these statement is incorrect?</string>
+    <string name="java_q10_1">Every class must contain a main() method</string>
+    <string name="java_q10_2">Applets do not require a main() method at all</string>]
+    <string name="java_q10_3">There can be only one main() method in a program</string>
+    <string name="java_q10_4">main() method must be made public</string>
+
+
+
+
+
+    <string name="kotlin_q1">1. Kotlin is developed by?</string>
+    <string name="kotlin_q1_1">Google</string>
+    <string name="kotlin_q1_2">JetBrains</string>
+    <string name="kotlin_q1_3">Microsoft</string>
+    <string name="kotlin_q1_4">Adobe</string>
+    <string name="kotlin_q2">2. Which of following is used to handle null exceptions in Kotlin?</string>
+    <string name="kotlin_q2_1">Range</string>
+    <string name="kotlin_q2_2">Sealed Class</string>]
+    <string name="kotlin_q2_3">Elvis Operator</string>
+    <string name="kotlin_q2_4">Lambda function</string>
+    <string name="kotlin_q3">3. Which file extension is used to save Kotlin files.</string>
+    <string name="kotlin_q3_1">.java</string>
+    <string name="kotlin_q3_2">.kot</string>]
+    <string name="kotlin_q3_3">.kt or .kts</string>
+    <string name="kotlin_q3_4">.android</string>
+    <string name="kotlin_q4">4. All classes in Kotlin classes are by default?</string>
+    <string name="kotlin_q4_1">public</string>
+    <string name="kotlin_q4_2">final</string>]
+    <string name="kotlin_q4_3">sealed</string>
+    <string name="kotlin_q4_4">abstract</string>
+    <string name="kotlin_q5">5. What is correct way to create an arraylist in Kotlin?</string>
+    <string name="kotlin_q5_1">val map = hashMapOf(1 to "one", 2 to "two", 3 to "three")</string>
+    <string name="kotlin_q5_2">enum class Color {RED, GREEN, BLUE}</string>]
+    <string name="kotlin_q5_3">val list = arrayListOf(1, 2, 3)</string>
+    <string name="kotlin_q5_4">val set = hashSetOf(1, 2, 3)</string>
+    <string name="kotlin_q6">6. What is an immutable variable?</string>
+    <string name="kotlin_q6_1">A variable that cannot change, read-only</string>
+    <string name="kotlin_q6_2">A variable that can be changed</string>]
+    <string name="kotlin_q6_3">A variable used for string interpolation</string>
+    <string name="kotlin_q6_4">None of the above</string>
+    <string name="kotlin_q7">7. Which of follwing targets currently not supported by Kotlin?</string>
+    <string name="kotlin_q7_1">LLVM</string>
+    <string name="kotlin_q7_2">.NET CLR</string>]
+    <string name="kotlin_q7_3">Javascript</string>
+    <string name="kotlin_q7_4">None of the mentioned</string>
+    <string name="kotlin_q8">8. How to make a multi lined comment in Kotlin?</string>
+    <string name="kotlin_q8_1">//</string>
+    <string name="kotlin_q8_2">/**/</string>]
+    <string name="kotlin_q8_3">/ multi line comment /</string>
+    <string name="kotlin_q8_4">none of the mentioned</string>
+    <string name="kotlin_q9">9. How do you get the length of a string in Kotlin?</string>
+    <string name="kotlin_q9_1">str.length</string>
+    <string name="kotlin_q9_3">length(str)</string>
+    <string name="kotlin_q9_2">str.lengthOf</string>
+    <string name="kotlin_q9_4">None the above</string>
+    <string name="kotlin_q10">10. Which of the followings constructors are available in Kotlin?</string>
+    <string name="kotlin_q10_1">Primary constructor</string>
+    <string name="kotlin_q10_2">Secondary constructor</string>]
+    <string name="kotlin_q10_3">Both 1 and 2</string>
+    <string name="kotlin_q10_4">None of the above</string>
+</resources>
