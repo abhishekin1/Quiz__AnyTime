@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_final.*
+import kotlinx.android.synthetic.main.quiz_page.*
 
 class FinalActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -18,8 +19,9 @@ class FinalActivity : AppCompatActivity() {
 
         tryAgain.text= "try $topic quiz again"
         tryAgain.setOnClickListener{
+
             val intent = Intent(this, QuizPage::class.java)
-            intent.putExtra(MainActivity.TOPICf, topic)
+            //intent.putExtra(MainActivity.TOPICf, topic)
             startActivity(intent)
         }
 

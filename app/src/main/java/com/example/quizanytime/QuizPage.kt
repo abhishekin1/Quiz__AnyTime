@@ -22,8 +22,9 @@ class QuizPage : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.quiz_page)
         var selectedQuiz = intent?.extras?.getString(MainActivity.NAME_EXTRA).toString()
-        var selctedQuiz  = intent?.extras?.getString(MainActivity.TOPICf).toString()
+        //var selctedQuiz  = intent?.extras?.getString(MainActivity.TOPICf).toString()
         setRespectiveImage(selectedQuiz)
+        op_group.clearCheck()
 
         myDataset = dataset().loadList(selectedQuiz)
         correctOptionList = correctLclass().corrLfun(selectedQuiz)
@@ -39,6 +40,8 @@ class QuizPage : AppCompatActivity() {
 
         next.setOnClickListener{
             if (isfinished==true){
+                selectOptonsList[count] = op_group.checkedRadioButtonId
+                op_group.clearCheck()
                 score(selectedQuiz)
             }
             nextfun()
@@ -80,6 +83,9 @@ class QuizPage : AppCompatActivity() {
     }
     fun previousfun(){
         isfinished = false
+        if (count==0){
+            Toast.makeText(this, "Sorry, you are already at  1st question 🙄 ", Toast.LENGTH_SHORT).show()
+        }
         selectOptonsList[count] = op_group.checkedRadioButtonId
 
         if(count > 0){
@@ -104,9 +110,7 @@ class QuizPage : AppCompatActivity() {
         if (count == (myDataset.size)-2 ){
             next.text= "next"
         }
-        if (count==0){
-            Toast.makeText(this, "Sorry, you are already at  1st question 🙄 ", Toast.LENGTH_SHORT).show()
-        }
+
 
 
     }
